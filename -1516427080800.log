@@ -1,0 +1,150 @@
+index.html:1 The SSL certificate used to load resources from https://images-na.ssl-images-amazon.com will be distrusted in M70. Once distrusted, users will be prevented from loading these resources. See https://g.co/chrome/symantecpkicerts for more information.
+favicon.ico Failed to load resource: net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+favicon.ico:1 GET file:///F:/jeevan/sirius-step/favicon.ico net::ERR_FILE_NOT_FOUND
+var movie={"name":"Arivi","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie={"name":"bhagubali","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie1={"name":"bhagubali","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie={"name":"Arivi","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie2={"name":"mersal","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie2={"name":"robo2","year":"2018","rating":"4.7","img":"https://pbs"}
+undefined
+var movie3={"name":"robo2","year":"2018","rating":"4.7","img":"https://pbs"}
+undefined
+var arr=[movie,movie1,movie2,movie3];
+undefined
+arr
+(4) [{…}, {…}, {…}, {…}]0: {name: "Arivi", year: "2017", rating: "4", img: "https://pbs"}1: {name: "bhagubali", year: "2017", rating: "4", img: "https://pbs"}2: {name: "robo2", year: "2018", rating: "4.7", img: "https://pbs"}3: {name: "robo2", year: "2018", rating: "4.7", img: "https://pbs"}length: 4__proto__: Array(0)
+var movie={"name":"baranji","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie1={"name":"before i fall","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie2={"name":"fuckery returns","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie3={"name":"tubelight","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var arr1=[movie,movie1,movie2,movie3];
+undefined
+arr1
+(4) [{…}, {…}, {…}, {…}]0: {name: "baranji", year: "2017", rating: "4", img: "https://pbs"}1: {name: "before i fall", year: "2017", rating: "4", img: "https://pbs"}2: {name: "fuckery returns", year: "2017", rating: "4", img: "https://pbs"}3: {name: "tubelight", year: "2017", rating: "4", img: "https://pbs"}length: 4__proto__: Array(0)
+arr
+(4) [{…}, {…}, {…}, {…}]0: {name: "Arivi", year: "2017", rating: "4", img: "https://pbs"}1: {name: "bhagubali", year: "2017", rating: "4", img: "https://pbs"}2: {name: "robo2", year: "2018", rating: "4.7", img: "https://pbs"}3: {name: "robo2", year: "2018", rating: "4.7", img: "https://pbs"}length: 4__proto__: Array(0)
+var movie={"name":"logan","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie1={"name":"lastwordn","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var movie2={"name":"lastwordn","year":"2017","rating":"4","img":"https://pbs"}
+undefined
+var arr2=[movie,movie1,movie2,movie3];
+undefined
+var arr3=[arr,arr1,arr2];
+undefined
+var arr3
+undefined
+arr3
+(3) [Array(4), Array(4), Array(4)]0: Array(4)0: {name: "Arivi", year: "2017", rating: "4", img: "https://pbs"}1: {name: "bhagubali", year: "2017", rating: "4", img: "https://pbs"}2: {name: "robo2", year: "2018", rating: "4.7", img: "https://pbs"}3: {name: "robo2", year: "2018", rating: "4.7", img: "https://pbs"}length: 4__proto__: Array(0)1: Array(4)0: {name: "baranji", year: "2017", rating: "4", img: "https://pbs"}1: {name: "before i fall", year: "2017", rating: "4", img: "https://pbs"}2: img: "https://pbs"name: "fuckery returns"rating: "4"year: "2017"__proto__: Object3: {name: "tubelight", year: "2017", rating: "4", img: "https://pbs"}length: 4__proto__: Array(0)2: (4) [{…}, {…}, {…}, {…}]0: {name: "logan", year: "2017", rating: "4", img: "https://pbs"}1: {name: "lastwordn", year: "2017", rating: "4", img: "https://pbs"}2: {name: "lastwordn", year: "2017", rating: "4", img: "https://pbs"}3: {name: "tubelight", year: "2017", rating: "4", img: "https://pbs"}length: 4__proto__: Array(0)length: 3__proto__: Array(0)
+var outputjson={"movielisy":"arr3"}
+undefined
+outputjson
+{movielisy: "arr3"}movielisy: "arr3"__proto__: constructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+outputjson["movielisy"][0]
+"a"
+outputjson["movielisy"][2]
+"r"
+outputjson["movielisy"][0]
+"a"
+arr3\
+VM873:1 Uncaught SyntaxError: Invalid or unexpected token
+movie
+{name: "logan", year: "2017", rating: "4", img: "https://pbs"}
+movie1
+{name: "lastwordn", year: "2017", rating: "4", img: "https://pbs"}
+var movieArr=[]
+undefined
+movieArr.push(movie)
+1
+movieArr
+[{…}]0: {name: "logan", year: "2017", rating: "4", img: "https://pbs"}length: 1__proto__: Array(0)
+var object={"movielist":"movieArr"};
+undefined
+var object={"movielist":movieArr};
+undefined
+object
+{movielist: Array(1)}movielist: Array(1)0: {name: "logan", year: "2017", rating: "4", img: "https://pbs"}length: 1__proto__: Array(0)__proto__: constructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+object
+{movielist: Array(1)}movielist: Array(1)0: {name: "logan", year: "2017", rating: "4", img: "https://pbs"}length: 1__proto__: Array(0)__proto__: Object
+for(i=0;i<object.movielist.length;i++)
+{
+   if(array[i].name=="logan") 
+VM1142:3 Uncaught SyntaxError: Unexpected end of input
+for(i=0;i<object.movielist.length;i++)
+{
+   if(array[i].name=="logan") {
+       return year;
+VM1169:4 Uncaught SyntaxError: Illegal return statement
+for(i=0;i<object.movielist.length;i++)
+{
+   if(array[i].name=="logan") {
+       return year;}}
+VM1175:4 Uncaught SyntaxError: Illegal return statement
+for(i=0;i<object.movielist.length;i++)
+{
+   if(array[i].name=="logan") {
+       console.log( year);}}
+VM1231:3 Uncaught ReferenceError: array is not defined
+    at <anonymous>:3:4
+(anonymous) @ VM1231:3
+for(i=0;i<object.movielist.length;i++)
+{
+   if(moviearr[i].name=="logan") {
+       console.log( year);}}
+VM1247:3 Uncaught ReferenceError: moviearr is not defined
+    at <anonymous>:3:4
+(anonymous) @ VM1247:3
+for(i=0;i<object.movielist.length;i++)
+{
+   if(movieArr[i].name=="logan") {
+       console.log( year);}}
+VM1257:4 Uncaught ReferenceError: year is not defined
+    at <anonymous>:4:21
+(anonymous) @ VM1257:4
+for(i=0;i<object.movielist.length;i++)
+{
+   if(movieArr[i].name=="logan") {
+       console.log( "year");}}
+VM1259:4 year
+undefined
+for(i=0;i<object.movielist.length;i++)
+{
+   if(movieArr[i]["name"]=="logan") {
+       console.log( movieArr[i]["year"]);}}
+VM1275:4 2017
+undefined
+for(i=0;i<object.movielist.length;i++)
+{
+   if(movieArr[i]["rating"]=="4") {
+       console.log( movieArr[i]["year"]);}}
+VM1287:4 2017
+undefined
+movieArr.push(movie1)
+2
+for(i=0;i<object.movielist.length;i++)
+{
+   if(movieArr[i]["rating"]=="4") {
+       console.log( movieArr[i]["year"]);}}
+VM1301:4 2017
+VM1301:4 2017
+undefined
