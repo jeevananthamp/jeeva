@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add movie </title>
+<meta name="description" content="My Add movie" />
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="movie.css"  />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300" />
+</head>
+<body>
+  <header>
+    <img  class="logo fleft" src="./images/projector-logo.png">
+    <nav>
+      <ul  class="fright">
+        <li>
+           <a href="#">Home</a>
+         </li>
+         <li><a href="#">Add movie</a></li>
+       </ul>
+     </nav>
+   </header>
+       <div
+         class="clearfix">
+       </div>
+
+       <form  action="/sample-action" class="addform">
+         <h2> Add a movie</h2>
+         <ul>
+           <li>
+             <label> Movie name</label>
+
+             <input id="movie-name" type="text" name="movie-name" required/>
+           </li>
+           <li>
+             <label> Release year</label>
+             <input type="text" name="release-yr">
+           </li>
+           <li>
+             <div class="divide language-div">
+           <label for="Language">Language</label>
+             <select>
+               <option value="English">English</option>
+               <option value="Tamil">Tamil</option>
+               <option value="Telungu">Telungu</option>
+               <option value="Hindi">Hindi</option>
+             </select>
+           </div>
+           <div class="divide" >
+           <label for="Ratings">Ratings</label>
+             <select>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+             </select>
+           </div>
+           </li>
+           <li>
+             <label for="Thumpnail-url">Thumpnail-url</label>
+             <input type="url" name="Thumpnail-url"/>
+           </li>
+           <li>
+             <label for="plot">Plot</label><br>
+             <textarea name="Plot" rows="8" cols="45">
+             </textarea>
+            </li>
+            <li>
+              <label for="Poster-url">Poster-url</label>
+              <input type="url" name="Poster-url"/>
+            </li>
+            <li>
+              <label for="Cast">Cast</label><br>
+              <textarea name="Cast" rows="8"  cols="45">
+              </textarea>
+             </li>
+             <li>
+               <input type="button" id="but" value="save"/>
+             </li>
+
+             </select>
+
+         </ul>
+         </form>
+         <footer>
+           <img  class="logo fright" src="./images/projector-logo.png">
+           <a href="#"><img class="social" src="./images/Facebook.png" /></a>
+           <a href="#"><img  class="social" src="./images/Twitter.png" /></a>
+           <a href="#"><img  class="social" src="./images/Instagram.png" /></a>
+         </footer>
+
+       </body>
+</html>

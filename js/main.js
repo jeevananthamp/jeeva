@@ -1,6 +1,6 @@
 console.log("js added");
 $.ajax({
-  type:"GET",url:"https://api.myjson.com/bins/tls49",
+  type:"GET",url:"https://localhost:3000/movies/all",
   success:function(response)
   {
     //console.log("Data from success",response);
@@ -55,12 +55,12 @@ function constructDOM(data)
     console.log("constructDOM data",objectschema);
     var catogoryTitle =$('<h3 class="categoryName">'+objectschema.category +'</h3>');
     categorycontent.push(catogoryTitle);
-    for(j=0;j<objectschema.movies.rlength;j++)
+    for(j=0;j<objectschema.movies.length;j++)
     {
     console.log(objectschema.movies[j].name);
-    var categoryMovieName=$('<div class="movie"><img class="poster" src="'objectschema.movies[j].Thumbnailurl+' ">'+objectschema.movies[j].name+'</div>')
+    var categoryMovieName=$('<div class="movie fleft"><img class="poster" src="'+objectschema.movies[j].thumbnailUrl+' ">'+objectschema.movies[j].name+'</div>');
     categorycontent.push(categoryMovieName);
-    }
+  }
 
   }
   $('.content').html(categorycontent);

@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var movies = require('./routes/movies');
-
+var dbservice=require('./services/dbservice');
+dbservice.cerateConnection();
 var app = express();
 
 // view engine setup
